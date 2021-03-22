@@ -1,0 +1,95 @@
+.ql-editor {
+    height: 670px;
+}
+.quill-blur {
+display: none;
+}
+.editor_zone{
+    width: 500px;
+}
+.test_zone{
+    width: 500px;
+    margin: 10px;
+    height: 730px;
+}
+.test_zone p{
+    margin: 0;
+}
+#root{
+    display: flex;
+}
+.editor_content{
+    width: 100%;
+    height: 700px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: solid 1px rgba(94, 93, 93, 0.418);
+    overflow: auto;
+}
+.quill{
+    margin:10px 10px 10px 10px;
+}
+.ql-editor .ql-video{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+.ql-editor .ql-prevideo{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+.ql-editor .video_preview_tempData{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto auto auto;
+    width: 100%;
+    height: max-content;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #1e212d;
+    text-align: center;
+    font-size: 1em;
+}
+.video_preview_tempData_url{
+    text-overflow: ellipsis;
+    text-align:center;
+    user-select: none;
+    -webkit-user-select: none; /* Chrome/Safari */ 
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    -webkit-user-modify: read-only;
+    -moz-user-modify: read-only;
+}
+.editor_submit{
+    background-color: #11698e;
+    color: #fff;
+    float: right;
+    height: 2.5rem;
+    width: 3.5rem;
+    font-size: 1rem;
+    margin: 5px 5px;
+}
+.editor_title{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: normal;
+    border-bottom: 1px solid rgba(94, 93, 93, 0.418);
+}
+.editor_navbar{
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
